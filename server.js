@@ -3,7 +3,10 @@ const usersRouter = require("./routes/Users");
 const app = express()
 const port = 4000;
 
-app.use("/user", usersRouter)
+
+app.use(express.json());
+
+app.use("/users", usersRouter)
 
 
 
