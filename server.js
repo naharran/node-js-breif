@@ -5,6 +5,8 @@ const port = 4000;
 
 app.use("/user", usersRouter)
 
+console.log("Hello world")
+
 
 
 app.listen(port,() => {
